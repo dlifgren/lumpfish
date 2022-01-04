@@ -46,14 +46,14 @@ knitr::kable(joined)
 ```{r}
 x <- joined$Weight.11.22
 x <- x[!is.na(x)]
-hist(x, breaks=40,
+hist(x, breaks=30,
      main = "measurments from 11/22",xlab = "weight in grams")
 
 ```
 ```{r}
 y <- joined$Weight.12.6
 y <- y[!is.na(y)]
-hist(y, breaks=50,
+hist(y, breaks=30,
      main = "measurments from 12/6", xlab = "weight in grams")
 ```
 
